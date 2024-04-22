@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vote Counter App</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 p-6">
+  <div class="max-w-md mx-auto bg-white rounded-md p-6 shadow mt-28">
+    <h1 class="text-2xl font-bold mb-4">Let's Vote</h1>
+    <div class="flex justify-between items-center mb-4">
+      <button id="voteBtn1" class="px-4 py-2 bg-blue-500 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500">Congress</button>
+      <span id="voteCount1" class="text-lg font-bold">0</span>
+    </div>
+    <div class="flex justify-between items-center pt-3">
+      <button id="voteBtn2" class="px-4 py-2 bg-green-500 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-green-500">Aam Admi Party</button>
+      <span id="voteCount2" class="text-lg font-bold">0</span>
+    </div>
+    <div class="flex justify-between items-center pt-6">
+        <button id="voteBtn3" class="px-4 py-2 bg-red-500 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-red-500">AndhBhakt</button>
+        <span id="voteCount3" class="text-lg font-bold">0</span>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
